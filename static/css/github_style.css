@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+/*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/*This file contains all the new CSS*/
+
+/*Basic card CSS.*/
+.card,html input[type=button],input[type=reset],input[type=submit]{
+  height: 18vh;
+  width: 18vw;
+  font-size: 15vw;
+  margin: 1vw;
+  background: white;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+  border-radius: 12vw;
+  overflow: hidden;
+  transition: all .2s linear;
+}
+
+/*Visual flair for hovering over a card.*/
+.card:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+  transform: translate3D(0, -2px, 0);
+}
+
+/*Special class for text/headers meant to display a repository name*/
+.repository{
+    color: blue;
+}
+
+/*Special class for text/headers meant to display a user name*/
+.gituser{
+    color: green;
+}
