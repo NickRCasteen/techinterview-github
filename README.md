@@ -1,3 +1,8 @@
+Please follow this link to view the final product:
+https://nickrcasteen.github.io/github_feed/
+
+This repository/pull request contains all the relevant files. This project is hosted as a github page, running off my blog which was scaffolded using Yeoman with the simple static blog generator by github user matthewbdaly (https://github.com/matthewbdaly). This was to cut out issues of costs of hosting, since I wanted this to be an HTML project.
+
 # Technical Interview Homework: GitHub Dashboard
 
 
